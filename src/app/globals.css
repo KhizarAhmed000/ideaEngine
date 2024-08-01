@@ -16,7 +16,7 @@ main {
   padding: 10px 30px !important;
 }
 .appStore, .playStore {
-  border-radius: 12px;
+  border-radius: 8px;
   backdrop-filter: blur(10px);
   font-size: 12px;
   width: 130px;
@@ -389,6 +389,7 @@ div#lottie {
   .appStore, .playStore {
     font-size: 14px;
     width: 160px;
+    border-radius: 12px;
   }
 }
 @media(min-width:1366px) {
@@ -412,6 +413,16 @@ div#lottie {
 @media(min-width:1700px) {
   .container {
     max-width: 1620px;
+  }
+  .preTitle {
+    font-size: 22px !important;
+  }
+  .mainTitle {
+    font-size: 80px !important;
+  }
+  .subTitle {
+    font-size: 28px !important;
+    line-height: normal;
   }
   .appStore, .playStore {
     font-size: 22px;

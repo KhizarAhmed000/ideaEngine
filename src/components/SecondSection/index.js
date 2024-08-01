@@ -14,22 +14,22 @@ export default function SecondSection({
     viewAllBtn
 }) {
     return (
-        <div className='text-white md:flex flex-col mt-16 md:mt-24 lg:mt-32 w-full'>
+        <div className='text-white md:flex flex-col mt-16 md:mt-24 lg:mt-48 w-full'>
             <div className='container'>
                 <div className='md:flex justify-between items-end '>
                     <div className='w-full'>
-                        <div className='LatoLight'>
+                        <p className='LatoLight capitalize preTitle'>
                             {preTitle}
-                        </div>
-                        <h2 className='break-words Oxanium text-3xl  xl:text-7xl mt-5 xl:mt-10'>
+                        </p>
+                        <h2 className='capitalize break-words Oxanium text-3xl  xl:text-7xl mt-5 xl:mt-10 mainTitle'>
                             {blueText ? (
-                                <span className='block text-custom-blue mr-3'>
+                                <span className='text-custom-blue mr-3'>
                                     {blueText}
                                 </span>
                             ) : null}
                             {titleText}
                         </h2>
-                        <p className='w-[80%] Oxanium text-sm sm:text-xl mt-5 xl:mt-10 font-thin lg:mb-0 lg:w-1/3'>
+                        <p className='capitalize w-[80%] Oxanium text-sm sm:text-xl mt-5 xl:mt-10 font-thin lg:mb-0 lg:w-1/3 subtext'>
                             {paragraph}
                         </p>
                     </div>

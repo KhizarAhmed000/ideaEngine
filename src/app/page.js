@@ -101,7 +101,7 @@ export default function Home() {
             titleText={"with AI"}
             paragraph={"Your token will be able Tell Jokes, Provide Advice, Offer Tips and much more."}
           />
-            <div className="cards w-full relative xl:mb-24">
+            <div className="cards w-full relative">
               <Image style={{'top':'-30%'}} className="absolute left-0" src={cardGradient}/>
               <div className="container">
 
