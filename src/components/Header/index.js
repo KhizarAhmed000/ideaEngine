@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import './style.css'
 import Image from 'next/image'
-import logo from '../../../public/assets/Logo.png';
+import logo from '../../../public/assets/logo.svg';
 import profile from '../../../public/assets/profile.png';
 import menuicon from '../../../public/assets/menu-icon.svg';
 
