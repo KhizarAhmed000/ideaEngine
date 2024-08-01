@@ -20,6 +20,7 @@ main {
   backdrop-filter: blur(10px);
   font-size: 12px;
   width: 130px;
+  cursor: pointer;
 }
 .playStore {
   border-radius: 12px;
