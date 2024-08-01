@@ -8,8 +8,8 @@ import secondImage from "../../public/assets/test.webp";
 import secondImageResponsive from "../../public/assets/secondImageResponsive.webp"
 import thirdImage from "../../public/assets/questNft.webp";
 import thirdImageResponsive from "../../public/assets/thirdImageResponsive.svg";
-import appleBtn from "../../public/assets/AppStore.png";
-import playStore from "../../public/assets/PlayStore.png";
+import appleBtn from "../../public/assets/appstore-icon.svg";
+import playStore from "../../public/assets/playstore-icon.svg";
 import fourthImage from "../../public/assets/fourthImage.webp";
 import fourthImageResponsive from "../../public/assets/fourthImageResponsive.webp";
 import fifthImage from "../../public/assets/lastImg.webp";
@@ -68,8 +68,14 @@ export default function Home() {
             Revolutionizing AI and social interactions. Users can engage in peer-to-peer zero knowledge exchanges, ensuring complete privacy and security during data transactions. Users will be rewarded for taking notes, interacting with artificial intelligence and communicating with other users.
             </p>
             <div className="flex mt-10 gap-4 justify-center">
-              <Image src={playStore} className="object-contain app-store" />
-              <Image src={appleBtn} className="object-contain app-store" />
+              <div className="playStore flex align-center w-max gap-2 py-2 xl:py-3 justify-center">
+                <Image src={playStore} className="object-contain app-store" />
+                For Android
+              </div>
+              <div className="appStore flex align-center w-max gap-2 py-2 xl:py-3 justify-center">
+                <Image src={appleBtn} className="object-contain app-store" />
+                For IOS
+              </div>
             </div>
           </div>
           </div>

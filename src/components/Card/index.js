@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import block from "../../../public/assets/userProfile.png"
 import fire from "../../../public/assets/fxemoji_fire.png";
-import eth from "../../../public/assets/eth.webp";
+import eth from "../../../public/assets/eth.svg";
 // import nft1 from "../../../public/assets/nft1.png";
 import vectorTest from "../../../public/assets/vectorTest.png";
 
@@ -29,7 +29,7 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
                     <Image src={block} />
                 </div>
                 <div>
-                    <h4 className='text-lg xl:text-2xl'>
+                    <h4 className='Oxanium text-lg xl:text-2xl'>
                         {cryptoName}
                     </h4>
                     <p className='Inter md:text-xs xl:text-sm'>

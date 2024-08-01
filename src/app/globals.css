@@ -15,6 +15,24 @@ main {
 .view_all {
   padding: 10px 30px !important;
 }
+.appStore, .playStore {
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  font-size: 12px;
+  width: 130px;
+}
+.playStore {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: rgba(126, 126, 126, 0.19);
+  backdrop-filter: blur(10px);
+  color: #FFF;
+}
+.appStore {
+  border-radius: 12px;
+  background: #FFF;
+  backdrop-filter: blur(10px);
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -323,7 +341,9 @@ div#lottie {
   align-items: center;
 }
 
-
+.app-store {
+  max-width: 20px;
+}
 
 @media(min-width:768px) {
   .container {
@@ -351,6 +371,10 @@ div#lottie {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .appStore, .playStore {
+    font-size: 14px;
+    width: 150px;
+  }
 }
 @media(min-width:1025px){
   .hero_button {
@@ -359,25 +383,38 @@ div#lottie {
 
   }
   .app-store {
-    max-width: 150px;
+    max-width: 25px;
+}
+  .appStore, .playStore {
+    font-size: 14px;
+    width: 160px;
   }
-  
 }
 @media(min-width:1366px) {
   .right-line, .left-line, .header-btn {
     font-size: 18px !important;
   }
+
+
   .app-store {
-    max-width: 200px;
-  }
+    max-width: 30px;
+}
   footer svg {
     position: relative;
     top: 30px;
+}
+.appStore, .playStore {
+  font-size: 18px;
+  width: 220px;
 }
 }
 @media(min-width:1700px) {
   .container {
     max-width: 1620px;
+  }
+  .appStore, .playStore {
+    font-size: 22px;
+    width: 243px;
   }
   footer {
     margin-top: 18rem !important;
