@@ -62,9 +62,9 @@ export default function Home() {
            <Image style={{'top':'-22%'}} className="absolute right-0" src={zfGradient}/>
           <div className="container">
             <div className="gradient-text-container inter">
-              <h1 className="gradient-text text-2xl sm:text-4xl xl:text-6xl font-bold mt-10 lg:mt-28"> Distributed Wearable Avatar Network </h1>
+              <h4 className="gradient-text text-2xl sm:text-4xl xl:text-[50px] font-medium mt-10 lg:mt-28 md:text-center"> Distributed Wearable Avatar Network </h4>
             </div>
-            <p className="mx-auto text-white inter mt-5 md:mt-10 inter xl:text-xl lg:w-[70%]  xl:w-[55%] md:text-center">
+            <p className="text-xs sm:text-sm mx-auto text-white inter mt-5 xl:mt-10 font-light inter xl:text-lg lg:w-[650px] xl:w-[850px]  md:text-center ">
             Revolutionizing AI and social interactions. Users can engage in peer-to-peer zero knowledge exchanges, ensuring complete privacy and security during data transactions. Users will be rewarded for taking notes, interacting with artificial intelligence and communicating with other users.
             </p>
             <div className="flex mt-10 gap-4 justify-center">
@@ -105,7 +105,7 @@ export default function Home() {
               <Image style={{'top':'-30%'}} className="absolute left-0" src={cardGradient}/>
               <div className="container">
 
-                <div className="px-2 sm:px-4 md:px-0 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 my-10 items-center justify-center">
+                <div className="px-2 sm:px-4 md:px-0 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 my-5 md:my-7 lg:my-10 items-center justify-center">
 
                   <Card img={nft1} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
                   <Card img={nft5} hearts={"7"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
@@ -144,7 +144,7 @@ export default function Home() {
 
 
 
-          <h4 className="text-white text-3xl md:text-4xl xl:text-6xl mb-5 lg:mb-10 Oxanium md:mt-10 font-bold">
+          <h4 className="text-white text-2xl md:text-4xl xl:text-5xl mb-5 lg:mb-10 Oxanium md:mt-10 font-bold">
             Join Whitelist
           </h4>
           <div className="px-2 w-full">
@@ -155,7 +155,7 @@ export default function Home() {
                 name="email"
                 placeholder="Enter your email"
               />
-              <div className="w-12 md:ml-10 cursor-pointer">
+              <div className="w-10 md:w-12 md:ml-10 cursor-pointer">
                 <Image src={subscribe} />
               </div>
             </div>

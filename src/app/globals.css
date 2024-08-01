@@ -15,6 +15,9 @@ main {
 .view_all {
   padding: 10px 30px !important;
 }
+.hero_title {
+  line-height: normal !important;
+}
 .appStore, .playStore {
   border-radius: 8px;
   backdrop-filter: blur(10px);
@@ -22,6 +25,7 @@ main {
   width: 130px;
   cursor: pointer;
 }
+
 .playStore {
   border: 1px solid rgba(255, 255, 255, 0.20);
   background: rgba(126, 126, 126, 0.19);
@@ -82,17 +86,19 @@ body {
 
 @font-face {
   font-family: 'Inter';
-  src: url('../../public/assets/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
-  font-weight: normal;
   font-style: normal;
+  font-weight: 100 900;
+  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
 }
 
 .lottie-column {
  position: relative;
 }
-.inter{
-  font-family: "Inter";
-}
+
 .AbelRegular {
   font-family: 'Abel-Regular';
 }
@@ -109,24 +115,25 @@ body {
 
 button.relative {
   position: relative;
-  width: 2rem;
-  height: 5rem;
-  color: white;
-  background-color: none;
+  color: #fff;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 .toggleUp {
   max-width: 140px;
 }
+@media (max-width:767px) {
+  .container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
 @media(max-width:640px) {
   button.relative{
     width: 6rem;
     height: 2rem;
   }
-  .cards .container {
-    max-width: 450px;
-}
+
   .container {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -136,11 +143,11 @@ button.relative {
     padding-right: 5px;
   }
 }
-@media (min-width:340px) and (max-width:640px) {
-  .container {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
+@media (max-width:639px) {
+  .cards .container {
+    max-width: 450px;
+}
+}
 
 }
 @media(max-width:340px) {
@@ -239,13 +246,7 @@ button2:hover::after {
   max-width: 1920px;
 }
 
-.gradient-text-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   /* Center the text vertically and horizontally */
-   /* Optional: set a background color */
-}
+
 
 .gradient-text {
   
@@ -347,19 +348,17 @@ div#lottie {
   max-width: 20px;
 }
 
-@media(min-width:768px) {
+@media(min-width:768px) and (max-width:1023px){
   .container {
     max-width: 95%;
     padding-left: 20px;
     padding-right: 20px;
   }
-/* footer {
-  background-image: url(/_next/static/media/footer-top-line.1cbd8452.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-} */
+  .cards .container {
+    max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media(min-width:992px){
   .view_all {
@@ -404,17 +403,27 @@ div#lottie {
 }
   footer svg {
     position: relative;
-    top: 30px;
+    top: 24px;
 }
 .appStore, .playStore {
   font-size: 18px;
   width: 220px;
+}
+.footer-gray-text, .follow-us {
+  font-size: 16px !important;
 }
 }
 @media(min-width:1700px) {
   .container {
     max-width: 1620px;
   }
+  .footer-gray-text, .follow-us {
+    font-size: 18px !important;
+}
+  footer svg {
+    position: relative;
+    top: 30px;
+}
   .preTitle {
     font-size: 22px !important;
   }

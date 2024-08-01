@@ -32,7 +32,7 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
                     <h4 className='Oxanium text-lg xl:text-2xl'>
                         {cryptoName}
                     </h4>
-                    <p className='Inter md:text-xs xl:text-sm'>
+                    <p className='Inter text-xs xl:text-sm'>
                         By @ {userName}
                     </p>
                 </div>
@@ -40,26 +40,26 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
 
             <div className='flex justify-between mx-4 mt-5 xl:mt-10'>
                 <div className='flex items-center'>
-                    <p className='Oxanium lg:text-sm xl:text-lg mt-1'>
+                    <p className='Oxanium text-xs lg:text-sm xl:text-lg mt-1'>
                         On Sale
                     </p>
-                    <div className='w-4 xl:w-5 xl:ml-1'>
+                    <div className='w-3 xl:w-5 xl:ml-1'>
                         <Image src={fire} />
                     </div>
                 </div>
 
                 <div className='flex items-center'>
-                    <div className='w-6'>
+                    <div className='w-5'>
                         <Image src={eth} />
                     </div>
-                    <p className='lg:text-sm xl:text-lg'>
+                    <p className='text-xs lg:text-sm xl:text-lg'>
                         {ethAmount}
                     </p>
                 </div>
             </div>
 
             <div className="flex justify-center items-center mt-5 xl:mt-10 mb-3 ">
-                <button3 className="lg:text-xs xl:text-lg relative w-[80%] text-center  opacity-80 cursor-pointer  p-2 xl:p-3 Oxanium  hover:text-white border border-[#AD1AAF] group">
+                <button3 className="text-xs lg:text-xs xl:text-lg relative w-[80%] text-center  opacity-80 cursor-pointer  p-2 xl:p-3 Oxanium  hover:text-white border border-[#AD1AAF] group">
                     Coming Soon
                 </button3>
             </div>

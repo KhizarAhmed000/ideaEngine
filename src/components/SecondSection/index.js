@@ -16,12 +16,12 @@ export default function SecondSection({
     return (
         <div className='text-white md:flex flex-col mt-16 md:mt-24 xl:mt-48 w-full'>
             <div className='container'>
-                <div className='md:flex justify-between items-end '>
-                    <div className='w-full'>
-                        <p className='LatoLight capitalize preTitle'>
+                <div className='md:flex justify-between items-end'>
+                    <div className='w-full mb-5'>
+                        <p className='LatoLight capitalize preTitle text-xs sm:text-sm'>
                             {preTitle}
                         </p>
-                        <h2 className='capitalize break-words Oxanium text-3xl  xl:text-7xl mt-5 xl:mt-10 mainTitle'>
+                        <h2 className='capitalize break-words Oxanium text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-5 xl:mt-10 mainTitle'>
                             {blueText ? (
                                 <span className='text-custom-blue mr-3'>
                                     {blueText}
@@ -29,7 +29,7 @@ export default function SecondSection({
                             ) : null}
                             {titleText}
                         </h2>
-                        <p className='capitalize w-[80%] Oxanium text-sm sm:text-xl mt-5  font-thin lg:mb-0 lg:w-1/3 subtext'>
+                        <p className='capitalize w-[80%] Oxanium text-sm  mt-3 lg:mt-5  font-thin lg:mb-0 lg:w-1/3 subtext'>
                             {paragraph}
                         </p>
                     </div>
@@ -46,10 +46,10 @@ export default function SecondSection({
             {sectionImg && responsiveImage &&
 
                 <>
-                    <div className='hidden md:flex justify-center items-center self-center w-full container'>
+                    <div className='hidden sm:flex justify-center items-center self-center w-full container'>
                         <Image src={sectionImg} layout='responsive' />
                     </div>
-                    <div className='flex md:hidden justify-center items-center self-center'>
+                    <div className='flex sm:hidden justify-center items-center self-center'>
                         <Image src={responsiveImage} />
                     </div>
                 </>
