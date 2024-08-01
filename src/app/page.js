@@ -64,7 +64,7 @@ export default function Home() {
             <div className="gradient-text-container inter">
               <h4 className="gradient-text text-2xl sm:text-4xl xl:text-[50px] font-medium mt-10 lg:mt-28 md:text-center"> Distributed Wearable Avatar Network </h4>
             </div>
-            <p className="text-xs sm:text-sm mx-auto text-white inter mt-5 xl:mt-10 font-light inter xl:text-lg lg:w-[650px] xl:w-[850px]  md:text-center ">
+            <p className="relative text-xs sm:text-sm mx-auto text-white inter mt-5 xl:mt-10 font-light inter xl:text-lg lg:w-[650px] xl:w-[850px]  md:text-center ">
             Revolutionizing AI and social interactions. Users can engage in peer-to-peer zero knowledge exchanges, ensuring complete privacy and security during data transactions. Users will be rewarded for taking notes, interacting with artificial intelligence and communicating with other users.
             </p>
             <div className="flex mt-10 gap-4 justify-center">
@@ -107,9 +107,9 @@ export default function Home() {
 
                 <div className="px-2 sm:px-4 md:px-0 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 my-5 md:my-7 lg:my-10 items-center justify-center">
 
-                  <Card img={nft1} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
-                  <Card img={nft5} hearts={"7"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
-                  <Card img={nft3} hearts={"8"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
+                  <Card img={nft1} hearts={"6"} cryptoName={"Vinu"} userName={"User"} ethAmount={"4.89"}/>
+                  <Card img={nft5} hearts={"7"} cryptoName={"Pepe"} userName={"User"} ethAmount={"4.89"}/>
+                  <Card img={nft3} hearts={"8"} cryptoName={"Jesus"} userName={"User"} ethAmount={"4.89"}/>
                   <Card img={nft4} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
                 </div>
 

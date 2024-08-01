@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
       </div>
       <div className='footer-copty-text py-1'>
-        <p className='m-0'>© Copyright © 2024 Incentives  Incentives - AI Automations and blockchain sales@idea-engine.ai</p>
+        <p className='m-0'>© Copyright © 2024 Incentives - AI Automations and blockchain sales@idea-engine.ai</p>
       </div>
       </div>
     </footer>
