@@ -64,7 +64,7 @@ export default function Home() {
             <div className="gradient-text-container inter">
               <h1 className="gradient-text text-2xl sm:text-4xl xl:text-6xl font-bold mt-10 lg:mt-28"> Distributed Wearable Avatar Network </h1>
             </div>
-            <p className="mx-auto text-white inter mt-5 md:mt-10 inter xl:text-xl  xl:w-[55%] md:text-center">
+            <p className="mx-auto text-white inter mt-5 md:mt-10 inter xl:text-xl lg:w-[70%]  xl:w-[55%] md:text-center">
             Revolutionizing AI and social interactions. Users can engage in peer-to-peer zero knowledge exchanges, ensuring complete privacy and security during data transactions. Users will be rewarded for taking notes, interacting with artificial intelligence and communicating with other users.
             </p>
             <div className="flex mt-10 gap-4 justify-center">

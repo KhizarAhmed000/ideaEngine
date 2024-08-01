@@ -124,6 +124,9 @@ button.relative {
     width: 6rem;
     height: 2rem;
   }
+  .cards .container {
+    max-width: 450px;
+}
   .container {
     padding-left: 1.25rem;
     padding-right: 1.25rem;

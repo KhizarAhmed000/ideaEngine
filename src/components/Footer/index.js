@@ -38,11 +38,11 @@ export default function Footer() {
         <a href="#" className='mb-5 md:mb-0 block  align-center follow-us uppercase text-white'>Follow us</a>
         <div className='flex justify-center gap-6 align-center'>
 
-          <a href="https://x.com/Incentives01"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic01.svg' width={20} height={20} /></a>
-          <a href="https://t.me/idea_engine_ai"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic02.svg' width={20} height={20} /></a>
-          <a href="https://incentives101.substack.com/"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic03.svg' width={20} height={20} /></a>
-          <a href="https://www.instagram.com/idea_engine.ai/"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic04.svg' width={20} height={20} /></a>
-          <a href="https://www.youtube.com/@IDEA-EngineAI"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic05.svg' width={20} height={20} /></a>
+          <a className='footer-social' href="https://x.com/Incentives01"><Image src='https://www.idea-engine.ai/images/social_ic01.svg' width={20} height={20} /></a>
+          <a className='footer-social' href="https://t.me/idea_engine_ai"><Image src='https://www.idea-engine.ai/images/social_ic02.svg' width={20} height={20} /></a>
+          <a className='footer-social' href="https://incentives101.substack.com/"><Image src='https://www.idea-engine.ai/images/social_ic03.svg' width={20} height={20} /></a>
+          <a className='footer-social' href="https://www.instagram.com/idea_engine.ai/"><Image src='https://www.idea-engine.ai/images/social_ic04.svg' width={20} height={20} /></a>
+          <a className='footer-social' href="https://www.youtube.com/@IDEA-EngineAI"><Image src='https://www.idea-engine.ai/images/social_ic05.svg' width={20} height={20} /></a>
         </div>
         </div>
       </div>

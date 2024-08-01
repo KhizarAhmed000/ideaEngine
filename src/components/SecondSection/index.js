@@ -14,7 +14,7 @@ export default function SecondSection({
     viewAllBtn
 }) {
     return (
-        <div className='text-white md:flex flex-col mt-16 md:mt-24 lg:mt-48 w-full'>
+        <div className='text-white md:flex flex-col mt-16 md:mt-24 xl:mt-48 w-full'>
             <div className='container'>
                 <div className='md:flex justify-between items-end '>
                     <div className='w-full'>
@@ -29,7 +29,7 @@ export default function SecondSection({
                             ) : null}
                             {titleText}
                         </h2>
-                        <p className='capitalize w-[80%] Oxanium text-sm sm:text-xl mt-5 xl:mt-10 font-thin lg:mb-0 lg:w-1/3 subtext'>
+                        <p className='capitalize w-[80%] Oxanium text-sm sm:text-xl mt-5  font-thin lg:mb-0 lg:w-1/3 subtext'>
                             {paragraph}
                         </p>
                     </div>
