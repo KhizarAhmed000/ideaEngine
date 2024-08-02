@@ -107,10 +107,10 @@ export default function Home() {
 
                 <div className="px-2 sm:px-4 md:px-0 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 my-5 md:my-7 lg:my-10 items-center justify-center">
 
-                  <Card img={nft1} hearts={"6"} cryptoName={"Vinu"} userName={"User"} ethAmount={"4.89"}/>
-                  <Card img={nft5} hearts={"7"} cryptoName={"Pepe"} userName={"User"} ethAmount={"4.89"}/>
-                  <Card img={nft3} hearts={"8"} cryptoName={"Jesus"} userName={"User"} ethAmount={"4.89"}/>
-                  <Card img={nft4} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
+                  <Card img={nft1} hearts={"6"} cryptoName={"Floki"} userName={"User"} ethAmount={"7.09"}/>
+                  <Card img={nft5} hearts={"7"} cryptoName={"Pepe"} userName={"User"} ethAmount={"5.15"}/>
+                  <Card img={nft3} hearts={"8"} cryptoName={"Jesus"} userName={"User"} ethAmount={"0.62"}/>
+                  <Card img={nft4} hearts={"6"} cryptoName={"Vinu"} userName={"User"} ethAmount={"12.89"}/>
                 </div>
 
               </div>
