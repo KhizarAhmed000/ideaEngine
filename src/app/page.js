@@ -17,10 +17,10 @@ import fifthImageResponsive from "../../public/assets/lastImgResponsive.webp";
 import subscribe from "../../public/assets/subscribe.png";
 import Footer from "@/components/Footer";
 import Card from "@/components/Card";
-import nft1 from "../../public/assets/nft1.png";
-import nft5 from "../../public/assets/nft7.png";
-import nft3 from "../../public/assets/nft3.png";
-import nft4 from "../../public/assets/nft4.png";
+import nft1 from "../../public/assets/nft1.webp";
+import nft5 from "../../public/assets/nft7.webp";
+import nft3 from "../../public/assets/nft3.webp";
+import nft4 from "../../public/assets/nft4.webp";
 import lineThing1 from "../../public/assets/lineThing3.svg";
 import gradient from "../../public/assets/gradientBlue.svg";
 import cardGradient from '../../public/assets/card-gradient.png'
