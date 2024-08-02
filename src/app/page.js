@@ -122,7 +122,7 @@ export default function Home() {
             <SecondSection
             className="mt-24"
               preTitle={"IDEA Engine: AI Wearable Crypto Collectibles Ecosystem"}
-              titleText={"TokenoMics And Utility"}
+              titleText={"Tokenomics And Utility"}
               sectionImg={fourthImage}
               responsiveImage={fourthImageResponsive}
             />
