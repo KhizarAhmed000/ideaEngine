@@ -29,12 +29,10 @@ main {
 .playStore {
   border: 1px solid rgba(255, 255, 255, 0.20);
   background: rgba(126, 126, 126, 0.19);
-  backdrop-filter: blur(10px);
   color: #FFF;
 }
 .appStore {
   background: #FFF;
-  backdrop-filter: blur(10px);
   color: #000;
 }
 :root {
