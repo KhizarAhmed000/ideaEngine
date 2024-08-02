@@ -38,7 +38,7 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
                 </div>
             </div>
 
-            <div className='flex justify-between mx-4 mt-5 xl:mt-10'>
+            <div className='flex justify-between mx-4 mt-7 xl:mt-10'>
                 <div className='flex items-center'>
                     <p className='Oxanium text-sm lg:text-sm xl:text-lg mt-1'>
                         On Sale
