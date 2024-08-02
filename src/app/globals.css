@@ -35,7 +35,6 @@ main {
 .appStore {
   background: #FFF;
   backdrop-filter: blur(10px);
-  color: #000;
 }
 :root {
   --foreground-rgb: 0, 0, 0;
