@@ -29,10 +29,10 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
                     <Image src={block} />
                 </div>
                 <div>
-                    <h4 className='Oxanium text-lg xl:text-2xl'>
+                    <h4 className='Oxanium text-xl xl:text-2xl'>
                         {cryptoName}
                     </h4>
-                    <p className='Inter text-xs xl:text-sm'>
+                    <p className='Inter text-sm xl:text-sm'>
                         By @ {userName}
                     </p>
                 </div>
@@ -40,7 +40,7 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
 
             <div className='flex justify-between mx-4 mt-5 xl:mt-10'>
                 <div className='flex items-center'>
-                    <p className='Oxanium text-xs lg:text-sm xl:text-lg mt-1'>
+                    <p className='Oxanium text-sm lg:text-sm xl:text-lg mt-1'>
                         On Sale
                     </p>
                     <div className='w-3 xl:w-5 xl:ml-1'>
@@ -52,7 +52,7 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
                     <div className='w-5'>
                         <Image src={eth} />
                     </div>
-                    <p className='text-xs lg:text-sm xl:text-lg'>
+                    <p className='text-sm lg:text-sm xl:text-lg'>
                         {ethAmount}
                     </p>
                 </div>
