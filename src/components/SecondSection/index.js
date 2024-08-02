@@ -23,7 +23,7 @@ export default function SecondSection({
                         </p>
                         <h2 className='capitalize break-words Oxanium text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-5 xl:mt-10 mainTitle'>
                             {blueText ? (
-                                <span className='text-custom-blue mr-3'>
+                                <span className='inline text-custom-blue mr-3'>
                                     {blueText}
                                 </span>
                             ) : null}
