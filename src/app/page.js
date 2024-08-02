@@ -4,7 +4,7 @@ import FirstSection from "@/components/firstSection";
 import Header from "@/components/Header";
 import SecondSection from "@/components/SecondSection";
 import Image from "next/image";
-import secondImage from "../../public/assets/test.webp";
+import secondImage from "../../public/assets/smallWatch.png";
 import secondImageResponsive from "../../public/assets/secondImageResponsive.webp"
 import thirdImage from "../../public/assets/questNft.webp";
 import thirdImageResponsive from "../../public/assets/thirdImageResponsive.svg";
@@ -90,6 +90,7 @@ export default function Home() {
               sectionImg={thirdImage}
               responsiveImage={thirdImage}
             />
+
           </gradientcontainer>
 
 

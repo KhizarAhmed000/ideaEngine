@@ -43,7 +43,7 @@ export default function Header() {
             <div className='left-line h-4 w-0.5 bg-black'></div>
             <div className='header-btn py-1.5 lg:py-2 px-3 xl:py-3.5 lg:px-4 md:px-2 text-white Oxanium '><a href="#" className='font-bold'>Connect Wallet</a></div>
             <div className='right-line h-4 w-0.5'></div>
-            <div className='profile-img hidden sm:block pr-2'>
+            <div className='profile-img hidden md:block pr-2'>
               <Image src={profile} />
             </div>
             <input type='checkbox' id='check'></input>
