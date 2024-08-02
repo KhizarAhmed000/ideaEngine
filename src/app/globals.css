@@ -21,8 +21,8 @@ main {
 .appStore, .playStore {
   border-radius: 8px;
   backdrop-filter: blur(10px);
-  font-size: 12px;
-  width: 130px;
+  font-size: 10px;
+  width: 110px;
   cursor: pointer;
 }
 
@@ -348,7 +348,7 @@ div#lottie {
 }
 
 .app-store {
-  max-width: 20px;
+  max-width: 18px;
 }
 
 @media(min-width:768px) and (max-width:1023px){
@@ -361,6 +361,12 @@ div#lottie {
     max-width: 768px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+@media(min-width:768px) {
+  .appStore, .playStore {
+    font-size: 12px;
+    width: 130px;
   }
 }
 @media(min-width:992px){
