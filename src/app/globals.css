@@ -40,6 +40,53 @@ main {
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Slightly adjusted start */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slideInFromBottom {
+  animation: slideInFromBottom 1s ease-out; /* Adjust timing as needed */
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-out; /* Adjust timing as needed */
+}
+
+/* Initial state */
+.slideInFromBottom {
+  opacity: 0;
+  transform: translateY(20px); /* Adjust to desired start position */
+}
+
+.fadeIn {
+  opacity: 0;
+}
+
+/* Applying animation */
+.visible.slideInFromBottom {
+  animation: slideInFromBottom 1s ease-out forwards;
+}
+
+.visible.fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
