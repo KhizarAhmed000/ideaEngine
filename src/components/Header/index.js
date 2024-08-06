@@ -23,7 +23,7 @@ export default function Header() {
               <Image src={logo} alt="Logo" loading="lazy" />
             </motion.div>
             <motion.div
-            initial={{ opacity: 0, y: -30 }}
+            initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
              className='headerDefault headerMenu py-2 xl:py-5 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
@@ -55,7 +55,7 @@ export default function Header() {
               </div>
             }
             <motion.div
-            initial={{ opacity: 0, y: -40 }}
+            initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
 
