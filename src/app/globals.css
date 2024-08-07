@@ -96,7 +96,8 @@ main {
 
 .spinner {
   background-image: url('../../public/assets/cube.webp');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 100px;
   height: 100px;
   animation: spin 1s linear infinite; /* Add this line */
