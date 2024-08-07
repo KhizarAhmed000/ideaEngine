@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
       <div className='mb-10 md:mb-auto h-max xl:w-2/3 left-0 right-0 md:absolute m-auto top-0 bottom-0 footer-content grid text-center xl:flex items-center lg:justify-around  flex-col gap-8 sm:gap-6 lg:gap-6 xl:gap-8 md:flex-row'>
         <div>
-          <ul className='flex justify-center footer-list gap-6 xl:gap-10 md:gap-4 lg:gap-6'>
+          <ul className='flex justify-center footer-list gap-3 xl:gap-10 md:gap-4 lg:gap-6'>
             <li><a href="#" className='text-xs md:text-sm uppercase footer-gray-text'>White-paper</a></li>
             <li><a href="#" className='text-xs md:text-sm uppercase footer-gray-text'>VISUAL NOVEL</a></li>
             <li><a href="#" className='text-xs md:text-sm uppercase footer-gray-text'>INITIAL DEMO</a></li>
