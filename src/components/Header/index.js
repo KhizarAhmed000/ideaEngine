@@ -18,14 +18,14 @@ export default function Header() {
             <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
             className='logo sm:w-40 lg:w-auto'>
               <Image src={logo} alt="Logo" loading="lazy" />
             </motion.div>
             <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
+            transition={{ duration: 0.6, delay: 0.8 }}
              className='headerDefault headerMenu py-2 xl:py-5 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
               <ul className='flex text-white xl:gap-12 md:gap-3 lg:gap-6 gap-4'>
                 <li>
@@ -57,7 +57,7 @@ export default function Header() {
             <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
+            transition={{ duration: 0.8, delay: 1 }}
 
                className='headerbtn-box flex items-center lg:gap-3 md:gap-1'>
               <div className='left-line h-4 w-0.5 bg-black'></div>
