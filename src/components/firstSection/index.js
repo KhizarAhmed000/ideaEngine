@@ -71,8 +71,8 @@ export default function FirstSection() {
             transition={{ duration: 0.6, delay: 0.8 }}
             className='flex items-center md:items-start md:justify-start my-10 md:mb-0 xl:mt-20'
           >
-            <Button clickEvent={togglePopup1} title="Private Sale" />
-            <Button clickEvent={togglePopup2} title="White List" />
+            <Button  title="Private Sale" />
+            <Button  title="White List" />
           </motion.div>
         </motion.div>
         <motion.div
