@@ -12,6 +12,9 @@ main {
 .container {
   margin: 0 auto;
 }
+.bg-blue {
+  background-color: #5991FF;
+}
 .view_all {
   padding: 10px 30px !important;
 }
@@ -156,6 +159,13 @@ body {
   font-style: normal;
   font-weight: 100 900;
   src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url(https://fonts.gstatic.com/s/dmsans/v9/rP2Hp2ywxg089UriAWCrC5BBd4w.woff2) format('woff2');
 }
 
 .inter {

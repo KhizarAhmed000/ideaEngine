@@ -11,6 +11,7 @@ import lottieBg from '../../../public/assets/lottie-bg.webp';
 
 export default function FirstSection() {
   return (
+    
     <div className='container xl:mb-32'>
       <div className='flex-wrap text-white flex md:row flex-col-reverse sm:flex-row gap-2 sm:gap-0'>
         <motion.div
