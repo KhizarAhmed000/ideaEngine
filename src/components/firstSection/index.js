@@ -1,17 +1,46 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import firstSectionImg from '../../../public/assets/firstSection.png';
 import Button from '../Button';
 import { Player } from '@lottiefiles/react-lottie-player';
 import animationData from '../../lotties/man';
 import lottieBg from '../../../public/assets/lottie-bg.webp';
+import PrivateSale from '@/components/popups/privateSale';
+import JoinWhitelist from '@/components/popups/joinWhitelist';
 
 export default function FirstSection() {
+  const [privateSale, setPrivateSaleVisible] = useState(false);
+  const [joinWhitelist, setJoinWhitelistVisible] = useState(false);
+  const [completed, setCompletedVisible] = useState(false);
+
+  useEffect(() => {
+    if (privateSale || joinWhitelist || completed) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+
+    // Cleanup on component unmount
+    return () => document.body.classList.remove('no-scroll');
+  }, [privateSale, joinWhitelist, completed]);
+
+  const togglePopup1 = () => setPrivateSaleVisible(!privateSale);
+  const togglePopup2 = () => setJoinWhitelistVisible(!joinWhitelist);
+
   return (
+    <>
+      {privateSale && (
+        <PrivateSale onClose={togglePopup1} />
+      )}
     
+      {joinWhitelist && (
+        <JoinWhitelist onClose={togglePopup2} />
+      )}
+    
+     
+
     <div className='container xl:mb-32'>
       <div className='flex-wrap text-white flex md:row flex-col-reverse sm:flex-row gap-2 sm:gap-0'>
         <motion.div
@@ -42,8 +71,8 @@ export default function FirstSection() {
             transition={{ duration: 0.6, delay: 0.8 }}
             className='flex items-center md:items-start md:justify-start my-10 md:mb-0 xl:mt-20'
           >
-            <Button title="Private Sale" />
-            <Button title="White List" />
+            <Button clickEvent={togglePopup1} title="Private Sale" />
+            <Button clickEvent={togglePopup2} title="White List" />
           </motion.div>
         </motion.div>
         <motion.div
@@ -62,5 +91,7 @@ export default function FirstSection() {
         </motion.div>
       </div>
     </div>
+    </>
+
   );
 }

@@ -21,6 +21,9 @@ main {
 .hero_title {
   line-height: normal !important;
 }
+.no-scroll {
+  overflow: hidden;
+}
 .appStore, .playStore {
   border-radius: 8px;
   backdrop-filter: blur(10px);
