@@ -32,8 +32,8 @@ import zfGradient from '../../public/assets/zf-gradient.webp';
 import toggleUp from '../../public/assets/toggle-up.png';
 import Loader from '../components/loader.js'
 import Completed from '@/components/popups/completed';
-
-
+import JoinWhitelist from '@/components/popups/joinWhitelist';
+import PrivateSale from '@/components/popups/privateSale';
 export default function Home() {
   const [loading, setLoading] = useState(true);
 
@@ -69,6 +69,8 @@ export default function Home() {
 
   return (
     <>
+    <PrivateSale/>
+    <JoinWhitelist/>
     <Completed/>
       <div className="flex self-center items-center justify-center bg-black overflow-x-hidden w-full">
         {loading ? <Loader /> :

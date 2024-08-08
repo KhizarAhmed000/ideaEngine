@@ -26,7 +26,7 @@ export default function Header() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-             className='headerDefault headerMenu py-2 xl:py-5 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
+             className='headerDefault headerMenu py-2 xl:py-5 xl:px-16 md:px-6 sm:px-3'>
               <ul className='flex text-white xl:gap-12 md:gap-3 lg:gap-6 gap-4'>
                 <li>
                   <a href="https://drive.google.com/file/d/1ZSMbAvM8ulRg9-saG0uZ-cZ8z44dsjvj/view" className='menu-links uppercase'>White-paper</a>
@@ -40,7 +40,7 @@ export default function Header() {
               </ul>
             </motion.div>
             {headerOpen &&
-              <div className='headerResponsive headerMenu py-2 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
+              <div className='headerResponsive headerMenu py-2 xl:px-16  md:px-6 sm:px-3'>
                 <ul className='flex text-white xl:gap-12 md:gap-3 lg:gap-6 gap-4'>
                   <li>
                     <a href="https://drive.google.com/file/d/1ZSMbAvM8ulRg9-saG0uZ-cZ8z44dsjvj/view" className='menu-links uppercase'>White-paper</a>
