@@ -197,8 +197,8 @@ export default function Home() {
             Join Whitelist
           </h4>
           <div className="px-2 w-full">
-            <div className="w-[95%] mx-auto sm:w-[400px] xl:w-[680px] lg:w-[400px] flex-wrap justify-between flex px-2 py-1 xl:py-3 md:pl-7 rounded-[7px] border text-white border-[#5991ff] ">
-              <input className="py-4 sm:w-auto  bg-opacity-0 reset-input "
+            <div className="w-[95%] mx-auto sm:w-[400px] xl:w-[680px] lg:w-[400px] justify-between flex px-2 py-1 xl:py-3 md:pl-7 rounded-[7px] border text-white border-[#5991ff] ">
+              <input className="py-4 sm:w-full  bg-opacity-0 reset-input "
                 type="email"
                 id="email"
                 name="email"
