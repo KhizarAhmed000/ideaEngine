@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Footer() {
   return (
     
-    <footer className='relative mt-16 xl:mt-24 max-w-none w-screen'>
+    <footer className='relative mt-12 md:mt-0 xl:mt-24 max-w-none w-screen'>
       <div className='hidden  md:block'>
         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="288" viewBox="0 0 2002 288" fill="none">
           <path d="M2014.79 332V332C2014.79 149.746 1867.04 2 1684.79 2H291C108.746 2 -39 149.746 -39 332V332" stroke="url(#paint0_linear_184_8924)" stroke-width="4" stroke-miterlimit="10"/>
