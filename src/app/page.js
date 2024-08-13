@@ -25,12 +25,12 @@ import nft5 from "../../public/assets/nft7.webp";
 import nft3 from "../../public/assets/nft3.webp";
 import nft4 from "../../public/assets/nft4.webp";
 import lineThing1 from "../../public/assets/line3.png";
-import gradient from "../../public/assets/gradientBlue.svg";
 import cardGradient from '../../public/assets/card-gradient.png';
 import roadMapBg from '../../public/assets/roadmap-bg.png';
 import zfGradient from '../../public/assets/zf-gradient.webp';
 import toggleUp from '../../public/assets/toggle-up.png';
 import Loader from '../components/loader.js'
+import PartnershipSection from '@/components/PartnershipSection';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -208,6 +208,9 @@ export default function Home() {
                 <Image src={subscribe} />
               </div>
             </div>
+          </div>
+          <div className="mt-10 md:mt-20">
+            <PartnershipSection />
           </div>
           <Footer />
           <div className="fixed bottom-8 right-8 z-10">
