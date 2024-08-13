@@ -1,8 +1,4 @@
 import React from 'react'
-import facebook from '../../../public/assets/facebook.png';
-import linkedin from '../../../public/assets/linkedin.png';
-import cam from '../../../public/assets/cam.png';
-import footerline from '../../../public/assets/footer-top-line.png';
 import Image from "next/image"
 export default function Footer() {
   return (
