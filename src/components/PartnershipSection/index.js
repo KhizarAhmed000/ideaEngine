@@ -14,7 +14,7 @@ return (
         <h4 className="text-center text-white text-2xl md:text-4xl xl:text-5xl mb-8 lg:mb-10 Oxanium md:mt-10 font-bold">
           Partnerships
         </h4>
-        <ul className='m-0 p-0 flex justify-between sm:gap-8 lg:gap-12 align-center'>
+        <ul className='px-2 m-0 p-0 flex justify-between sm:gap-8 lg:gap-12 align-center'>
             <li>
                 <Image className="max-w-24  sm:max-w-32 md:max-w-44 xl:max-w-full" src={web3}/>
             </li>
