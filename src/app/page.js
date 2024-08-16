@@ -211,7 +211,7 @@ export default function Home() {
               </button>
             </form>
           </div>
-          <div className="mt-10 md:mt-24">
+          <div className="w-full mt-10 md:mt-24">
             <PartnershipSection />
           </div>
           <Footer />
